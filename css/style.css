@@ -202,6 +202,71 @@ footer p {
   font-size: 1.8rem;
 }
 
+@media (max-width: 992px) {
+  .hero {
+    height: 300px;
+  }
+  .hero .hero-text h1 {
+    font-size: 6rem;
+  }
+  .hero .hero-text p {
+    font-size: 2rem;
+  }
+  .navbar .container .navbar-brand {
+    font-size: 3rem;
+  }
+  .aboutus .container h2 {
+    font-size: 4.8rem;
+  }
+  .aboutus .container .aboutus-img {
+    height: 350px;
+  }
+  .aboutus .container .aboutus-text .aboutus-main-text {
+    font-size: 1.8rem;
+  }
+  .aboutus .container .aboutus-text .aboutus-bottom-text,
+  .aboutus .container .aboutus-text a {
+    font-size: 1.6rem;
+  }
+  .aboutus-carousel .container .aboutus-heading {
+    font-size: 3.6rem;
+  }
+  .aboutus-carousel .container .carousel .carousel-item {
+    position: relative;
+  }
+  .aboutus-carousel .container .carousel .carousel-item .carousel-caption {
+    top: 50%;
+    z-index: 2;
+  }
+  .aboutus-carousel .container .carousel .carousel-item .carousel-caption h5 {
+    font-size: 2.4rem;
+  }
+  .aboutus-carousel .container .carousel .carousel-item .carousel-caption p {
+    font-size: 1.6rem;
+  }
+  .price-list .container h2 {
+    font-size: 4.8rem;
+  }
+  .price-list .container .row .price-card {
+    margin: 10px auto;
+  }
+  .contact .container h2 {
+    font-size: 4.8rem;
+  }
+  .contact .container .row .address h3 {
+    font-size: 2.8rem;
+  }
+  .contact .container .row .address p {
+    font-size: 1.8rem;
+  }
+  .contact .container .row .form form label,
+  .contact .container .row .form form input,
+  .contact .container .row .form form select,
+  .contact .container .row .form form textarea,
+  .contact .container .row .form form button {
+    font-size: 1.8rem;
+  }
+}
 @media (max-width: 768px) {
   .hero {
     height: 200px;
@@ -269,60 +334,8 @@ footer p {
   .contact .container h2 {
     font-size: 4rem;
   }
-}
-@media (max-width: 992px) {
-  .hero {
-    height: 300px;
-  }
-  .hero .hero-text h1 {
-    font-size: 6rem;
-  }
-  .hero .hero-text p {
-    font-size: 2rem;
-  }
-  .navbar .container .navbar-brand {
-    font-size: 3rem;
-  }
-  .aboutus .container h2 {
-    font-size: 4.8rem;
-  }
-  .aboutus .container .aboutus-img {
-    height: 350px;
-  }
-  .aboutus .container .aboutus-text .aboutus-main-text {
-    font-size: 1.8rem;
-  }
-  .aboutus .container .aboutus-text .aboutus-bottom-text,
-  .aboutus .container .aboutus-text a {
-    font-size: 1.6rem;
-  }
-  .aboutus-carousel .container .aboutus-heading {
-    font-size: 3.6rem;
-  }
-  .aboutus-carousel .container .carousel .carousel-item {
-    position: relative;
-  }
-  .aboutus-carousel .container .carousel .carousel-item .carousel-caption {
-    top: 50%;
-    z-index: 2;
-  }
-  .aboutus-carousel .container .carousel .carousel-item .carousel-caption h5 {
-    font-size: 2.4rem;
-  }
-  .aboutus-carousel .container .carousel .carousel-item .carousel-caption p {
-    font-size: 1.6rem;
-  }
-  .price-list .container h2 {
-    font-size: 4.8rem;
-  }
-  .price-list .container .row .price-card {
-    margin: 10px auto;
-  }
-  .contact .container h2 {
-    font-size: 4.8rem;
-  }
   .contact .container .row .address h3 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
   .contact .container .row .address p {
     font-size: 1.6rem;
@@ -330,7 +343,8 @@ footer p {
   .contact .container .row .form form label,
   .contact .container .row .form form input,
   .contact .container .row .form form select,
-  .contact .container .row .form form textarea {
-    font-size: 1.8rem;
+  .contact .container .row .form form textarea,
+  .contact .container .row .form form button {
+    font-size: 1.6rem;
   }
 }/*# sourceMappingURL=style.css.map */
